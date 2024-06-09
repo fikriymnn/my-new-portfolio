@@ -89,7 +89,7 @@ export const BentoGridItem = ({
                 </div>
                 {id === 6 && (
                     <BackgroundGradientAnimation>
-                        <div className="absolute z-50 flex items-center justify-center text-white font-bold" />
+                        {/* <div className="absolute z-50 flex items-center justify-center text-white font-bold" /> */}
                     </BackgroundGradientAnimation>
                 )}
 
@@ -108,24 +108,22 @@ export const BentoGridItem = ({
 
                     {id === 3 && (
                         <div className=" flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-                            <div className="flex flex-col gap-3 lg:gap-8">
-                                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
+                            <div className="flex flex-col gap-3 lg:gap-5 lg:py-16">
                                 {['TypeScript', 'Next.js', 'Matlab'].map((item) => (
-                                    <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                                    <span key={item} className="py-2 lg:py-2 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                                         {item}
                                     </span>
                                 ))}
                                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
 
                             </div>
-                            <div className="flex flex-col gap-3 lg:gap-8">
+                            <div className="flex flex-col gap-3 lg:gap-5 lg:py-16 lg:px-3">
                                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
                                 {['Flutter', 'Firebase', 'Python'].map((item) => (
-                                    <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                                    <span key={item} className="py-2 lg:py-2 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                                         {item}
                                     </span>
                                 ))}
-                                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
 
                             </div>
                         </div>
@@ -133,17 +131,6 @@ export const BentoGridItem = ({
 
                     {id === 6 && (
                         <div className="mt-5 relative">
-                            <div className={`absolute -bottom-5 right-0`}>
-                                <Lottie options={{
-                                    loop: copied,
-                                    autoplay: copied,
-                                    animationData,
-                                    rendererSettings: {
-                                        preserveAspectRatio: 'xMidYMid slice',
-                                    },
-                                }} />
-                            </div>
-
                             <MagicButton
                                 title={copied ? 'Email copied' : 'Copy my email'}
                                 icon={<IoCopyOutline />}
