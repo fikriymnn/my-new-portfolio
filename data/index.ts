@@ -151,7 +151,7 @@ export const projects = [
   },
   {
     id: 11,
-    title: "Personality Check App (Machine Learning)",
+    title: "Personality Check App",
     des: "This application is made for mobile platforms. This app has the feature detects a person's personality through the hand line with the naive bayes method and Grey Level Co-occurrence Matrix (GLCM).",
     img: "/proj10.svg",
     iconLists: [
@@ -177,6 +177,20 @@ export const projects = [
     des: "This game is made for student learning, to get to know structure of alcohol compounds.",
     img: "/proj12.svg",
     iconLists: ["/unity.svg", "/csharp.svg", "/firebase.svg"],
+    link: "",
+  },
+  {
+    id: 14,
+    title: "Ringworm Detection App",
+    des: "This app was built to detect ringworm disease on human skin using images from gallery or camera. This app also has a chat feature with a Doctor for consultation.",
+    img: "/proj14.svg",
+    iconLists: [
+      "/flutter.svg",
+      "/dart.svg",
+      "/firebase.svg",
+      "/python.svg",
+      "/tensorflow.svg",
+    ],
     link: "",
   },
 ];
