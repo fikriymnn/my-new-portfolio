@@ -11,7 +11,7 @@ const Projects = () => {
                 <span className='text-purple'>projects {' '}</span>
                 <span>that I have ever worked on</span>
             </h1>
-            <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
+            <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-2 mt-10'>
                 {projects.map(({ id, title, des, img, iconLists, link }) => (
                     <div key={id} className='sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
                         <PinContainer title={title} href={link}>
@@ -21,7 +21,7 @@ const Projects = () => {
                                 </div>
                                 <img src={img} alt={title} className='z-10 absolute bottom-0' />
                             </div>
-                            <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
+                            <h1 className='font-bold lg:text-xl md:text-xl text-base line-clamp-1'>
                                 {title}
                             </h1>
 

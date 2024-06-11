@@ -71,14 +71,22 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Company Profile (TYS Consultant)",
-    des: "Official company profile website for TYS Consultant Company using Next.js.",
+    title: "Laboratory Analysis (Universitas Pendidikan Indonesia)",
+    des: "Website application for analysis services in chemical instrument laboratories at Universitas Pendidikan Indonesia.",
+    img: "/proj13.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/express.svg"],
+    link: "",
+  },
+  {
+    id: 2,
+    title: "Company Profile Website (TYS Consultant)",
+    des: "Official company profile website for TYS Consultant Company using Next.js with TypeScript.",
     img: "/proj1.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/firebase.svg"],
     link: "",
   },
   {
-    id: 2,
+    id: 3,
     title: "ASK - Aplikasi Suara Konsumen",
     des: "Social media mobile application for complaints about a company's service to customers from all companies in Indonesia.",
     img: "/proj2.svg",
@@ -86,7 +94,7 @@ export const projects = [
     link: "",
   },
   {
-    id: 3,
+    id: 4,
     title: "Inventory Management System (PT Indolakto)",
     des: "Inventory management application that functions to monitor inventory and production reports every day, week and month.",
     img: "/proj3.svg",
@@ -94,7 +102,7 @@ export const projects = [
     link: "",
   },
   {
-    id: 4,
+    id: 5,
     title: "Ibadahku",
     des: "This is umrah catalogue and travel booking. The features available in this website includes package catalogue, package booking, travel catalogue management, etc.",
     img: "/proj4.svg",
@@ -102,7 +110,7 @@ export const projects = [
     link: "",
   },
   {
-    id: 5,
+    id: 6,
     title: "Spare Management (PT Telkom Infra)",
     des: "Inventory application that functions to regulate the entry and exit of goods and cables, and also manages inventory in the warehouse at PT Telkom Infra.",
     img: "/proj5.svg",
@@ -110,7 +118,7 @@ export const projects = [
     link: "",
   },
   {
-    id: 6,
+    id: 7,
     title: "Waste Water Treatment Plant Simulator",
     des: "The Waste Water Treatment Plant Simulator (WWTP) web based is develop with Unity 3D and the actual equations.",
     img: "/proj6.svg",
@@ -118,7 +126,7 @@ export const projects = [
     link: "",
   },
   {
-    id: 7,
+    id: 8,
     title: "Company Profile Website (Qun Studios)",
     des: "This creative website is made with a fairly complex design. One example of a creative website that we have ever created is for a Production House company as shown in the picture below. In addition to a fairly complex design, this website also has a variety of animations.",
     img: "/proj7.svg",
@@ -126,7 +134,7 @@ export const projects = [
     link: "",
   },
   {
-    id: 8,
+    id: 9,
     title: "Company Profile Website (Qun Films)",
     des: "This creative website is made with a fairly complex design. One example of a creative website that we have ever created is for a Production House company as shown in the picture below. In addition to a fairly complex design, this website also has a variety of animations.",
     img: "/proj8.svg",
@@ -134,7 +142,7 @@ export const projects = [
     link: "",
   },
   {
-    id: 9,
+    id: 10,
     title: "Learning Management System Mobile App",
     des: "Mobile-based Learning Management System (LMS) application using Android Studio with Java. This application has been applied to a private tutoring institution.",
     img: "/proj9.svg",
@@ -142,7 +150,7 @@ export const projects = [
     link: "",
   },
   {
-    id: 10,
+    id: 11,
     title: "Personality Check App (Machine Learning)",
     des: "This application is made for mobile platforms. This app has the feature detects a person's personality through the hand line with the naive bayes method and Grey Level Co-occurrence Matrix (GLCM).",
     img: "/proj10.svg",
@@ -156,11 +164,19 @@ export const projects = [
     link: "",
   },
   {
-    id: 11,
+    id: 12,
     title: "Food & Drink Order App",
-    des: "This application is made for mobile platforms.",
+    des: "This application is made for mobile platforms. The features available in this application are order, transaction with payment gateway, history, etc.",
     img: "/proj11.svg",
     iconLists: ["/flutter.svg", "/dart.svg", "/firebase.svg"],
+    link: "",
+  },
+  {
+    id: 13,
+    title: "Chemistry Quiz Game",
+    des: "This game is made for student learning, to get to know structure of alcohol compounds.",
+    img: "/proj12.svg",
+    iconLists: ["/unity.svg", "/csharp.svg", "/firebase.svg"],
     link: "",
   },
 ];
