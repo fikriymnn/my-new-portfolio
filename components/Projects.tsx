@@ -7,9 +7,9 @@ const Projects = () => {
     return (
         <div className='"py-20' id='projects'>
             <h1 className='heading'>
-                All {' '}
+                Some {' '}
                 <span className='text-purple'>projects {' '}</span>
-                <span>that I have ever worked on</span>
+                <span>I have worked on</span>
             </h1>
             <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-2 mt-10'>
                 {projects.map(({ id, title, des, img, iconLists, link }) => (

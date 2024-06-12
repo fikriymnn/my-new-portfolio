@@ -193,6 +193,22 @@ export const projects = [
     ],
     link: "",
   },
+  {
+    id: 15,
+    title: "Indonesia Traditional Music Game",
+    des: "2D game simulator of traditional music or regional music in Indonesia. This game has features to create music from several instruments and record them.",
+    img: "/proj15.svg",
+    iconLists: ["/unity.svg", "/csharp.svg"],
+    link: "",
+  },
+  {
+    id: 16,
+    title: "Pitakonan",
+    des: "3D game that tells the story of a hero who revives customs and culture in Indonesia that have been lost due to technological developments.",
+    img: "/proj16.svg",
+    iconLists: ["/unity.svg", "/csharp.svg"],
+    link: "",
+  },
 ];
 
 export const companies = [
