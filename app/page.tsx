@@ -5,6 +5,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
+import { Techstack } from "../components/Techstack";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
+        <Techstack />
         <Projects />
       </div>
     </main>
