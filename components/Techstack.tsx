@@ -12,6 +12,8 @@ const slugs = [
     "github",
     "typescript",
     "javascript",
+    "nextjs",
+    "tailwindcss",
     "react",
     "html5",
     "css3",
