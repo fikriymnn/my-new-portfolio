@@ -8,6 +8,35 @@ import { useState } from "react";
 import animationData from '@/data/confetti.json'
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import { AnimatedTooltip } from "../ui/animated-tooltip";
+
+const people = [
+    {
+        id: 1,
+        name: "LinkedIn",
+        designation: "Fikri Zaki Aditama",
+        image:
+            "/linkedin_logo.png",
+        ref: "https://www.linkedin.com/in/fikri-zaki-aditama-231860176/",
+    },
+    {
+        id: 2,
+        name: "Instagram",
+        designation: "fikriymnn",
+        image:
+            "/ig_logo.png",
+        ref: "https://www.instagram.com/fikriymnn/",
+    },
+    {
+        id: 3,
+        name: "Facebook",
+        designation: "Fikri Zaki Aditama",
+        image:
+            "/fb_logo.png",
+        ref: "https://www.facebook.com/fikrizakii/",
+    },
+
+];
 
 export const BentoGrid = ({
     className,
@@ -107,24 +136,9 @@ export const BentoGridItem = ({
                     {id === 2 && <GlobeDemo />}
 
                     {id === 3 && (
-                        <div className=" flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-                            <div className="flex flex-col gap-3 lg:gap-5 lg:py-16">
-                                {['TypeScript', 'Next.js', 'Matlab'].map((item) => (
-                                    <span key={item} className="py-2 lg:py-2 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
-                                        {item}
-                                    </span>
-                                ))}
-                                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
-
-                            </div>
-                            <div className="flex flex-col gap-3 lg:gap-5 lg:py-16 lg:px-3">
-                                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
-                                {['Flutter', 'Firebase', 'Python'].map((item) => (
-                                    <span key={item} className="py-2 lg:py-2 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
-                                        {item}
-                                    </span>
-                                ))}
-
+                        <div className=" flex w-fit absolute -right-0.5 pr-20">
+                            <div className="flex lg:py-16 gap-1">
+                                <AnimatedTooltip items={people} />
                             </div>
                         </div>
                     )}
